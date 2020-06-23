@@ -275,6 +275,11 @@ input:checked + .slider:before {
 	font-size: 24px;
 }
 
+#info_link{
+	font-size: 20px;
+	padding-left: 5px;
+}
+
 textarea{	
     line-height: 1.5;
     border-radius: 5px;
@@ -290,11 +295,12 @@ input[type=number]{
 
 <body>
 
-  <h1> Latin Verb Trainer </h1>
+  <h1> Latin Verb Trainer </h1>  
+	
+  <a id="info_link" href="https://danelh.github.io/verbs/info.html" target="_blank\"> for instruction and information about this tool </a>
+  <p></p>
   
-  <p> for detailed instruction click here 123" </p>
-  
-  <button id="inflections_selection_collapsible_btn" type="button" class="collapsible">Inflections Selection</button>
+  <button id="inflections_selection_collapsible_btn" type="button" class="collapsible">Inflections Selection </button>
   <div class="content">  
   <div class="approveTermsContainer">
   <div class="newItems">
@@ -349,11 +355,11 @@ input[type=number]{
   <div id="missing_div">
   <!-- <label> Verbs with missing inflections </label> -->
   <div id="missing_inflections_div">
-  <p>Missing mutations:</p>
+  <p>Missing mutations: <a href="https://danelh.github.io/verbs/info.html#missing-mutations"> [what is that?] </a> </p>
   <textarea id="inflections_error_box" name="inflections_error_box" readonly=true disabled=true rows="4"></textarea>  
   </div>
   <div id="missing_verbs_div">
-  <p id="verbs_error_p" name="verbs_error_p">Unrecognized verbs. [why?].</p>
+  <p id="verbs_error_p" name="verbs_error_p">Unrecognized verbs. <a href="https://danelh.github.io/verbs/info.html#missing-mutations"> [why?] </a> </p>
   <textarea id="verbs_error_box" name="verbs_error_box" rows="4" readonly=true disabled=true></textarea> 
   </div>
   </div>
@@ -442,7 +448,9 @@ input[type=number]{
 	//var sorted_verbs_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/danelh.github.io/master/verbs_sorted_by_freq.json", 'async': true});
     //var all_verbs_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/danelh.github.io/master/verbs_new.json", 'async': true});
 	//var compact_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/danelh.github.io/master/compact.json", 'async': true});
-	  var compact_loader = $.getJSON({'url': "https://danelh.github.io/verbs/compact.json", 'async': true});
+	 // var compact_loader = $.getJSON({'url': "https://danelh.github.io/verbs/compact.json", 'async': true});
+	 // raw should be slower, but seem to work faster:
+	 var compact_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/verbs/master/compact.json", 'async': true});	 
 	compact_loader.done(function(){
 		//all_verbs = all_verbs_loader.responseJSON;
 		//sorted_verbs = sorted_verbs_loader.responseJSON;
