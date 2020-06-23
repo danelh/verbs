@@ -55,7 +55,7 @@ In case a verb was selected, which is not in the Trainer list, it will be noted 
 
 ### Save session parameters
 
-Selecting the inflections and auto verbs-generation settings might be tedious, especially when we are using them for long.  In order to avoid re-selection of those parameters,  the selected parameters are saved in address bar of the browser. Every change of the selected inflections or every click on "generate" button, will trigger a change in the address bar that will contain the selected parameters. If you want to save the settings simply copy the like for the address bar and save it for future use. When you use this like the Trainer will open with the selected parameters, and the verbs already generated - so you can start practice right away.
+Selecting the inflections and auto verbs-generation settings might be tedious, especially when we are using them for long.  In order to avoid re-selection of those parameters each time we open the Trainer,  the selected parameters are saved in address bar of the browser. Every change of the selected inflections or every click on "generate" button, will trigger a change in the address bar that will contain the newly-selected parameters. If you want to save the settings, simply copy the line of the address bar and save it for future use. When you use that link, the Trainer will be opened with the selected parameters, and with the verbs already generated - so you can start practice right away.
 
 If you want to save the verbs themselves (rather than the verbs-generation parameters), you should copy the text in the [verbs box](#verb-selection), and save this text for future use. To use the saved list, you have to paste it in the verbs box. 
 
