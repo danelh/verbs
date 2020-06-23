@@ -26,7 +26,7 @@ In order to use the automatic generator, you have to specify a  _level_ . The _l
 
 #### Frequencey
 
-The verbs were sorted by frequency using the [Perseus Vocabulary Tool's](http://www.perseus.tufts.edu/hopper/vocablist?lang=la) _weighted frequency_ attribute. the document pool used contained the prominent anthers of the classical period. Trainer did not distinguished between differnt verbs of the same root like _volo(irregular)_ and _volo(first)_: they both have the same frequency. (the highest of the two).
+The verbs were sorted by frequency using the [Perseus Vocabulary Tool's](http://www.perseus.tufts.edu/hopper/vocablist?lang=la) _weighted frequency_ attribute. the document pool contained the prominent anthers ([full list](docs_names.txt). Trainer did not distinguished between differnt verbs of the same root like _volo(irregular)_ and _volo(first)_: they both have the same frequency. (the highest of the two).
 
 ### Inflection selection
 
@@ -47,4 +47,4 @@ If you want to save the verbs themselves (rather than the verbs-generation param
 
 ### Contact information 
 
-todo
+[See here](https://danelh.github.io/about)
