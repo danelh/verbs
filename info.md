@@ -21,11 +21,11 @@ The correct answers were taken from Wiktionary. In several cases there is more t
 
 The Trainer uses 5371 verbs from wiktionary. This is by no means the attested number of Latin verbs; yet, a verb missing from the Trainer is probably quite rare.
 
-Several different verbs might have the same verb-root. [_Volo_](https://en.wiktionary.org/wiki/volo#Latin), for example, has two distinct conjugation tables: for the first conjugation (meaning to fly) and a irregular conjugation (meaning to wish). As long as the verb has different conjugation types, as with _volo_, the Trainer distinguishes between them by adding parentheses containing the conjugation types, hence the Trainer does not have the verb _volo_, but has instead two distict verbs _volo(first)_ and _volo(irregular)_.
+Several different verbs might have the same verb-root. [_Volo_](https://en.wiktionary.org/wiki/volo#Latin), for example, has two distinct conjugation tables: one of the first conjugation (meaning to fly) and a second of irregular conjugation (meaning to wish). As long as the verb has different conjugation types, as with _volo_, the Trainer distinguishes between them by adding parentheses containing the conjugation types. Hence the Trainer does not have the verb _volo_, but has instead two distict verbs: _volo(first)_ and _volo(irregular)_.
 
 Unfortunately, the cases different conjugation of the _same_ type, are overlooked by the Trainer. Example to this is the verb [_edo_](https://en.wiktionary.org/wiki/edo#Latin) that has two different  conjugation tables of the third conjugation-type. In such cases the Trainer will have only one verb with parentheses, and will take the correct answer from the **second** table, so for" _edo(third)_" and "_indicative active perfect 1st singular_" the correct answer would be _edidi_ (meaning I produced) and not _edi_ (meaning I ate).
 
-To sum everything up, we can look at the verb [_sero_](https://en.wiktionary.org/wiki/sero#Latin) which has 3 distinct conjugations: two of them of the third type, while the other is of the first. The Trainer will split this verb into two: one of the first conjugation-type and the other of third conjugation-type (the second table will be selected).
+To sum everything up, we can look at the verb [_sero_](https://en.wiktionary.org/wiki/sero#Latin) which has 3 distinct conjugations: two of them of the third type, while the remaining one is of the first. The Trainer will split this verb into two: one of the first conjugation-type and the other of third conjugation-type (the second table will be selected).
 
 ### Verb Selection
 There are 3 ways to select verb to practice on:
@@ -36,11 +36,11 @@ There are 3 ways to select verb to practice on:
 
 ### Level
 
-In order to use the automatic generator, you have to specify a  _level_ . The _level_ parameter basically tells the automatic generator which verbs are entitled to be generated.  The goal of this parameter  is to generate verbs that the user is likely to be familiar with, rather than complete random verbs from the list.  To achieve this, the verbs were sorted by **frequency** . Thus, selecting "Top 10%" option means that the verbs will be generated from 10% of the verbs which are the most frequent (pool of 537 verbs). The beginner may find this tool helpful for increasing his vocabulary of frequent verbs.   
+In order to use the automatic generator, you have to specify a  _level_ . The _level_ parameter basically tells the automatic generator which verbs are entitled to be generated.  The goal of this parameter is to generate verbs that the user is likely to be familiar with, rather than complete random verbs from the list. To achieve this, the verbs were sorted by **frequency** . Thus, selecting "Top 10%" option means that the verbs will be generated from 10% of the verbs which are the most frequent (pool of 537 verbs). The beginner may find this tool helpful for increasing his vocabulary of frequent verbs.   
 
 #### Frequencey
 
-The verbs were sorted by frequency using the [Perseus Vocabulary Tool's](http://www.perseus.tufts.edu/hopper/vocablist?lang=la) _weighted frequency_ attribute. the document pool contained prominent authors ([full list](docs_names.txt)).The Trainer did not distinguished between differnt verbs of the same root like _volo(irregular)_ and _volo(first)_: they both have the same frequency. (the highest of the two).
+The verbs were sorted by frequency using the [Perseus Vocabulary Tool's](http://www.perseus.tufts.edu/hopper/vocablist?lang=la) _weighted frequency_ attribute. the documents pool contained docs of prominent authors ([full list](docs_names.txt)).In terms of frequency, the Trainer does not distinguish between differnt verbs of the same root like _volo(irregular)_ and _volo(first)_: they both have the same frequency for the Trainer. (the highest of the two).
 
 ### Inflection selection
 
