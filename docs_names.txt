@@ -1,0 +1,205 @@
+1.Ammianus Marcellinus, Rerum Gestarum (ed. John C. Rolfe, Ph.D., Litt.D.)<Perseus:text:2007.01.0081>
+2.Apuleius, Apologia (ed. Rudolf Helm)<Perseus:text:2008.01.0501>
+3.Apuleius, Florida (ed. Rudolf Helm)<Perseus:text:2008.01.0503>
+4.Apuleius, Metamorphoses (ed. Stephen Gaselee)<Perseus:text:2008.01.0502>
+5.Augustine, Saint, Epistulae. Selections. (ed. James Houston Baxter)<Perseus:text:2008.01.0552>
+6.Caesar Augustus, Res Gestae Divi Augusti<Perseus:text:1999.02.0127>
+7.Aulus Gellius, Attic Nights (ed. John C. Rolfe)<Perseus:text:2007.01.0071>
+8.Boethius, Consolatio Philosophiae (ed. James J. O'Donnell)<Perseus:text:1999.02.0121>
+9.C. Valerius Catullus, Carmina (ed. E. T. Merrill)<Perseus:text:1999.02.0003>
+10.Celsus, De Medicina (ed. W. G. Spencer)<Perseus:text:1999.02.0141>
+11.M. Tullius Cicero, Academica (ed. O. Plasberg)<Perseus:text:2007.01.0032>
+12.M. Tullius Cicero, Brutus (ed. A. S. Wilkins)<Perseus:text:2008.01.0544>
+13.M. Tullius Cicero, De Amicitia (ed. William Armistead Falconer)<Perseus:text:2007.01.0040>
+14.M. Tullius Cicero, De Divinatione (ed. C. F. W. Müller)<Perseus:text:2007.01.0034>
+15.M. Tullius Cicero, De Divinatione (ed. William Armistead Falconer)<Perseus:text:2007.01.0042>
+16.M. Tullius Cicero, De Fato (ed. C. F. W. Müller)<Perseus:text:2007.01.0035>
+17.M. Tullius Cicero, de Finibus Bonorum et Malorum (ed. Th. Schiche)<Perseus:text:2007.01.0036>
+18.M. Tullius Cicero, De Inventione (ed. Eduard Stroebel)<Perseus:text:2008.01.0683>
+19.M. Tullius Cicero, De Legibus (ed. G. de Plinval, Georges de Plinval)<Perseus:text:2007.01.0030>
+20.M. Tullius Cicero, de Natura Deorum (ed. O. Plasberg)<Perseus:text:2007.01.0037>
+21.M. Tullius Cicero, De Officiis (ed. Walter Miller)<Perseus:text:2007.01.0047>
+22.M. Tullius Cicero, De Officiis: apparatus criticus (ed. Walter Miller)<Perseus:text:2007.01.0049>
+23.M. Tullius Cicero, De Optimo Genere Oratorum (ed. A. S. Wilkins)<Perseus:text:2008.01.0543>
+24.M. Tullius Cicero, De Oratore (ed. A. S. Wilkins)<Perseus:text:1999.02.0120>
+25.M. Tullius Cicero, De Partitione Oratoria (ed. A. S. Wilkins)<Perseus:text:2008.01.0542>
+26.M. Tullius Cicero, De Republica (ed. C. F. W. Mueller)<Perseus:text:2007.01.0031>
+27.M. Tullius Cicero, De Senectute (ed. William Armistead Falconer)<Perseus:text:2007.01.0038>
+28.M. Tullius Cicero, Lucullus (ed. O. Plasberg)<Perseus:text:2007.01.0033>
+29.M. Tullius Cicero, Orationes, Cum Senatui gratias egit, Cum populo gratias egit, De domo sua, De haruspicum responso, Pro Sestio, In Vatinium, De provinciis consularibus, Pro Balbo (ed. Albert Clark)<Perseus:text:1999.02.0014>
+30.M. Tullius Cicero, Orationes, Divinatio in Q. Caecilium, In C. Verrem (ed. Albert Clark, William Peterson)<Perseus:text:1999.02.0012>
+31.M. Tullius Cicero, Orationes, Pro Milone, Pro Marcello, Pro Ligario, Pro rege Deiotaro, Philippicae I-XIV (ed. Albert Clark, Albert Curtis Clark)<Perseus:text:1999.02.0011>
+32.M. Tullius Cicero, Orationes, Pro P. Quinctio, Pro Q. Roscio comoedo, Pro A. Caecina, De lege agraria contra Rullum, Pro C. Rabiro perduellionis reo, Pro L. Flacco, In L. Pisonem, Pro C. Rabiro Postumo (ed. Albert Clark)<Perseus:text:1999.02.0013>
+33.M. Tullius Cicero, Orationes, Pro Sex. Roscio, De imperio Cn. Pompei, Pro Cluentio, In Catilinam, Pro Murena, Pro Caelio (ed. Albert Clark, Albert Curtis Clark)<Perseus:text:1999.02.0010>
+34.M. Tullius Cicero, Orationes, Pro Tullio, Pro Fonteio, Pro Sulla, Pro Archia, Pro Plancio, Pro Scauro (ed. Albert Clark)<Perseus:text:1999.02.0015>
+35.M. Tullius Cicero, Orator (ed. A. S. Wilkins)<Perseus:text:2008.01.0545>
+36.M. Tullius Cicero, Paradoxa stoicorum ad M. Brutum (ed. J. G. Baiter, C. L. Kayser)<Perseus:text:2007.01.0045>
+37.M. Tullius Cicero, Paradoxa stoicorum ad M. Brutum: apparatus criticus (ed. J. G. Baiter, C. L. Kayser)<Perseus:text:2007.01.0046>
+38.M. Tullius Cicero, Timaeus (ed. C. F. W. Mueller, C.F.W. Mueller)<Perseus:text:2008.01.0676>
+39.M. Tullius Cicero, Topica (ed. A. S. Wilkins)<Perseus:text:2008.01.0546>
+40.M. Tullius Cicero, Tusculanae Disputationes (ed. M. Pohlenz)<Perseus:text:2007.01.0044>
+41.Q. Tullius Cicero, Essay on Running for Consul (ed. L. C. Purser)<Perseus:text:1999.02.0016>
+42.Columella, Lucius Junius Moderatus, Res Rustica, Books I-IV (ed. Harrison Boyd Ash)<Perseus:text:2008.01.0504>
+43.Columella, Lucius Junius Moderatus, Res Rustica, Books V-IX (ed. E.S. Forster, Edward H. Heffner)<Perseus:text:2008.01.0505>
+44.Cornelius Nepos, Vitae (ed. Albert Fleckeisen)<Perseus:text:1999.02.0136>
+45.Curtius Rufus, Quintus, Historiae Alexandri Magni (ed. Edmund Hedicke)<Perseus:text:2008.01.0536>
+46.Q. Horatius Flaccus (Horace), Carmina (ed. Paul Shorey, Gordon Lang, Paul Shorey and Gordon J. Laing)<Perseus:text:1999.02.0024>
+47.Q. Horatius Flaccus (Horace), Carmen Saeculare (ed. Paul Shorey)<Perseus:text:2008.01.0537>
+48.Q. Horatius Flaccus (Horace), Epodon (ed. Friedrich Vollmer)<Perseus:text:2008.01.0538>
+49.Q. Horatius Flaccus (Horace), Epistles (ed. H. Rushton Fairclough)<Perseus:text:2008.01.0539>
+50.Q. Horatius Flaccus (Horace), De Arte Poetica liber (ed. C. Smart)<Perseus:text:1999.02.0064>
+51.Q. Horatius Flaccus (Horace), Satyrarum libri (ed. C. Smart)<Perseus:text:1999.02.0062>
+52.C. Julius Caesar, De Bello Civili (ed. Renatus du Pontet)<Perseus:text:1999.02.0075>
+53.C. Julius Caesar, De bello Gallico (ed. T. Rice Holmes)<Perseus:text:1999.02.0002>
+54.Juvenal, Satires (ed. G. G. Ramsay)<Perseus:text:2007.01.0093>
+55.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, book 45 (ed. W. Weissenborn)<Perseus:text:1999.02.0182>
+56.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, book 45, commentary (ed. W. Weissenborn)<Perseus:text:1999.02.0196>
+57.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, book 45, textual notes (ed. W. Weissenborn)<Perseus:text:1999.02.0189>
+58.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 31-32 (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0176>
+59.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 31-32, commentary (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0190>
+60.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 31-32, textual notes (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0183>
+61.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 33-34 (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0177>
+62.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 33-34, commentary (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0191>
+63.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 33-34, textual notes<Perseus:text:1999.02.0184>
+64.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 35-38 (ed. W. Weissenborn)<Perseus:text:1999.02.0178>
+65.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 35-38, commentary (ed. W. Weissenborn)<Perseus:text:1999.02.0192>
+66.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 35-38, textual notes (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0185>
+67.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 39-40 (ed. W. Weissenborn)<Perseus:text:1999.02.0179>
+68.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 39-40, commentary (ed. W. Weissenborn)<Perseus:text:1999.02.0193>
+69.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 39-40, textual notes (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0186>
+70.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 41-42 (ed. W. Weissenborn)<Perseus:text:1999.02.0180>
+71.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 41-42, commentary (ed. W. Weissenborn)<Perseus:text:1999.02.0194>
+72.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 41-42, textual notes (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0187>
+73.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 43-44 (ed. W. Weissenborn)<Perseus:text:1999.02.0181>
+74.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 43-44, commentary (ed. W. Weissenborn)<Perseus:text:1999.02.0195>
+75.Titus Livius (Livy), Ab urbe condita libri, erklärt von M. Weissenborn, books 43-44, textual notes (ed. W. Weissenborn)<Perseus:text:1999.02.0188>
+76.Titus Livius (Livy), Ab urbe condita, books 1-10 (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0169>
+77.Titus Livius (Livy), Ab urbe condita, books 1-10, textual notes (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0212>
+78.Titus Livius (Livy), Ab Urbe Condita, books 1-2 (ed. Benjamin Oliver Foster, Ph.D.)<Perseus:text:1999.02.0199>
+79.Titus Livius (Livy), Ab urbe condita, books 1-5 (ed. Robert Seymour Conway, Charles Flamstead Walters)<Perseus:text:1999.02.0160>
+80.Titus Livius (Livy), Ab Urbe Condita, books 21-22 (ed. Benjamin Oliver Foster, Ph.D.)<Perseus:text:1999.02.0200>
+81.Titus Livius (Livy), Ab urbe condita, books 21-25 (ed. Robert Seymour Conway, Charles Flamstead Walters)<Perseus:text:1999.02.0161>
+82.Titus Livius (Livy), Ab urbe condita, books 21-30 (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0170>
+83.Titus Livius (Livy), Ab urbe condita, books 21-30, textual notes (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0171>
+84.Titus Livius (Livy), Ab Urbe Condita, books 23-25 (ed. Frank Gardener Moore, Professor Emeritus in Columbia University)<Perseus:text:1999.02.0204>
+85.Titus Livius (Livy), Ab Urbe Condita, books 26-27 (ed. Frank Gardner Moore, Professor Emeritus in Columbia University)<Perseus:text:1999.02.0205>
+86.Titus Livius (Livy), Ab urbe condita, books 26-30 (ed. Robert Seymour Conway, Stephen Keymer Johnson)<Perseus:text:1999.02.0162>
+87.Titus Livius (Livy), Ab Urbe Condita, books 28-30 (ed. Frank Gardener Moore, Professor Emeritus in Columbia University)<Perseus:text:1999.02.0206>
+88.Titus Livius (Livy), Ab Urbe Condita, books 3-4 (ed. Benjamin Oliver Foster, Ph.D.)<Perseus:text:1999.02.0201>
+89.Titus Livius (Livy), Ab urbe condita, books 31-38 (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0172>
+90.Titus Livius (Livy), Ab urbe condita, books 31-38, textual notes (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0173>
+91.Titus Livius (Livy), Ab Urbe Condita, books 35-37 (ed. Evan T. Sage, PhD professor of latin and head of the department of classics in the University of Pittsburgh)<Perseus:text:1999.02.0208>
+92.Titus Livius (Livy), Ab Urbe Condita, books 38-39 (ed. Evan T. Sage, Ph.D.)<Perseus:text:1999.02.0209>
+93.Titus Livius (Livy), Ab urbe condita, books 39-40 (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0174>
+94.Titus Livius (Livy), Ab urbe condita, books 39-40, textual notes (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0175>
+95.Titus Livius (Livy), Ab Urbe Condita, books 40-42 (ed. Evan T. Sage, Ph.D. and Alfred C. Schlesinger, Ph.D.)<Perseus:text:1999.02.0210>
+96.Titus Livius (Livy), Ab urbe condita, books 41-45 (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0140>
+97.Titus Livius (Livy), Ab urbe condita, books 41-45, textual notes (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0213>
+98.Titus Livius (Livy), Ab Urbe Condita, books 43-45 (ed. Alfred C. Schlesinger, Ph.D.)<Perseus:text:1999.02.0211>
+99.Titus Livius (Livy), Ab Urbe Condita, books 5-7 (ed. Benjamin Oliver Foster, Ph.D.)<Perseus:text:1999.02.0202>
+100.Titus Livius (Livy), Ab urbe condita, books 6-10 (ed. Charles Flamstead Walters, Robert Seymour Conway)<Perseus:text:1999.02.0163>
+101.Titus Livius (Livy), Ab Urbe Condita, books 8-10 (ed. Benjamin Oliver Foster, Ph.D.)<Perseus:text:1999.02.0156>
+102.Titus Livius (Livy), Ab urbe condita, fragments (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0143>
+103.Titus Livius (Livy), Ab urbe condita, fragments, textual notes (ed. W. Weissenborn, H. J. Müller)<Perseus:text:1999.02.0146>
+104.M. Annaeus Lucanus, Pharsalia (ed. Carolus Hermannus Weise)<Perseus:text:1999.02.0133>
+105.Florus, Lucius Annaeus, Epitome Rerum Romanorum (ed. Edward Seymour Forster)<Perseus:text:2008.01.0496>
+106.Lucretius, De Rerum Natura<Perseus:text:1999.02.0130>
+107.Martial, Epigrammata (ed. Wilhelm Heraeus, Jacobus Borovskij)<Perseus:text:2008.01.0506>
+108.P. Ovidius Naso, Amores, Epistulae, Medicamina faciei femineae, Ars amatoria, Remedia amoris (ed. R. Ehwald)<Perseus:text:1999.02.0068>
+109.P. Ovidius Naso, Ex Ponto (ed. Arthur Leslie Wheeler)<Perseus:text:2008.01.0493>
+110.P. Ovidius Naso, Fasti (ed. Sir James George Frazer)<Perseus:text:2008.01.0547>
+111.P. Ovidius Naso, Ibis (ed. Rudolf Merkel, Rudolf Ehwald)<Perseus:text:2008.01.0548>
+112.P. Ovidius Naso, Metamorphoses (ed. Hugo Magnus)<Perseus:text:1999.02.0029>
+113.P. Ovidius Naso, Tristia (ed. Arthur Leslie Wheeler)<Perseus:text:2008.01.0492>
+114.Persius, Satires (ed. G.G.Ramsay, G. G. Ramsay)<Perseus:text:2008.01.0497>
+115.Petronius, Satyricon, Fragmenta, and Poems (ed. Michael Heseltine)<Perseus:text:2007.01.0001>
+116.Phaedrus, Fabulae Aesopiae (ed. L. Mueller)<Perseus:text:1999.02.0118>
+117.T. Maccius Plautus, Amphitruo (ed. F. Leo)<Perseus:text:1999.02.0030>
+118.T. Maccius Plautus, Asinaria (ed. F. Leo)<Perseus:text:1999.02.0031>
+119.T. Maccius Plautus, Aulularia (ed. F. Leo)<Perseus:text:1999.02.0032>
+120.T. Maccius Plautus, Bacchides (ed. F. Leo)<Perseus:text:1999.02.0033>
+121.T. Maccius Plautus, Captivi (ed. F. Leo)<Perseus:text:1999.02.0034>
+122.T. Maccius Plautus, Casina (ed. F. Leo)<Perseus:text:1999.02.0035>
+123.T. Maccius Plautus, Cistellaria (ed. F. Leo)<Perseus:text:1999.02.0036>
+124.T. Maccius Plautus, Curculio (ed. F. Leo)<Perseus:text:1999.02.0037>
+125.T. Maccius Plautus, Epidicus (ed. F. Leo)<Perseus:text:1999.02.0038>
+126.T. Maccius Plautus, Menaechmi (ed. F. Leo)<Perseus:text:1999.02.0039>
+127.T. Maccius Plautus, Mercator (ed. F. Leo)<Perseus:text:1999.02.0040>
+128.T. Maccius Plautus, Miles Gloriosus (ed. F. Leo)<Perseus:text:1999.02.0041>
+129.T. Maccius Plautus, Mostellaria (ed. F. Leo)<Perseus:text:1999.02.0042>
+130.T. Maccius Plautus, Persa (ed. F. Leo)<Perseus:text:1999.02.0043>
+131.T. Maccius Plautus, Poenulus (ed. F. Leo)<Perseus:text:1999.02.0044>
+132.T. Maccius Plautus, Pseudolus (ed. F. Leo)<Perseus:text:1999.02.0045>
+133.T. Maccius Plautus, Rudens (ed. F. Leo)<Perseus:text:1999.02.0046>
+134.T. Maccius Plautus, Stichus (ed. F. Leo)<Perseus:text:1999.02.0047>
+135.T. Maccius Plautus, Trinummus (ed. F. Leo)<Perseus:text:1999.02.0048>
+136.T. Maccius Plautus, Truculentus (ed. F. Leo)<Perseus:text:1999.02.0049>
+137.Pliny the Elder, Naturalis Historia (ed. Karl Friedrich Theodor Mayhoff)<Perseus:text:1999.02.0138>
+138.Pliny the Younger, Letters<Perseus:text:1999.02.0139>
+139.Sextus Propertius, Elegies (ed. Lucian Mueller)<Perseus:text:2008.01.0494>
+140.Prudentius, Apotheosis (ed. H.J. Thomson)<Perseus:text:2008.01.0555>
+141.Prudentius, Cathemerina (ed. H.J. Thomson)<Perseus:text:2008.01.0554>
+142.Prudentius, Contra Symmachum (ed. H.J. Thomson)<Perseus:text:2008.01.0558>
+143.Prudentius, Dittochaeon (ed. H.J. Thomson)<Perseus:text:2008.01.0560>
+144.Prudentius, Epilogus (ed. H.J. Thomson)<Perseus:text:2008.01.0561>
+145.Prudentius, Hamartigenia (ed. H.J. Thomson)<Perseus:text:2008.01.0556>
+146.Prudentius, Peristephanon Liber (ed. H.J. Thomson)<Perseus:text:2008.01.0559>
+147.Prudentius, Praefatio (ed. H.J. Thomson)<Perseus:text:2008.01.0553>
+148.Prudentius, Psychomachia (ed. H.J. Thomson)<Perseus:text:2008.01.0557>
+149.Quintilian, Institutio Oratoria, books 1-3: index (ed. Harold Edgeworth Butler)<Perseus:text:2007.01.0059>
+150.Quintilian, Institutio Oratoria, books 10-12 (ed. Harold Edgeworth Butler)<Perseus:text:2007.01.0068>
+151.Quintilian, Institutio Oratoria, books 4-6 (ed. Harold Edgeworth Butler)<Perseus:text:2007.01.0062>
+152.Quintilian, Institutio Oratoria, books 7-9 (ed. Harold Edgeworth Butler)<Perseus:text:2007.01.0065>
+153.Sallust, The Catilinarian Conspiracy<Perseus:text:1999.02.0123>
+154.Sallust, The Jugurthine War<Perseus:text:1999.02.0125>
+155.Seneca the Elder, Controversiae (ed. Adolf Gottlieb Kiessling)<Perseus:text:2008.01.0563>
+156.Seneca the Elder, Excerpta Controversiae (ed. Adolf Gottlieb Kiessling)<Perseus:text:2008.01.0564>
+157.Seneca the Elder, Fragmenta (ed. Adolf Gottlieb Kiessling)<Perseus:text:2008.01.0565>
+158.Seneca the Elder, Suasoriae (ed. Adolf Gottlieb Kiessling)<Perseus:text:2008.01.0562>
+159.Seneca, Ad Lucilium Epistulae Morales (ed. Richard M. Gummere)<Perseus:text:2007.01.0080>
+160.Seneca, Agamemnon (ed. Rudolf Peiper, Gustav Richter)<Perseus:text:2007.01.0002>
+161.Seneca, Apocolocyntosis (ed. W.H.D. Rouse, W.H.D. Rouse, M.A. Litt. D.)<Perseus:text:2007.01.0028>
+162.Seneca, De Beneficiis (ed. John W. Basore)<Perseus:text:2007.01.0023>
+163.Seneca, De Brevitate Vitae (ed. John W. Basore)<Perseus:text:2007.01.0016>
+164.Seneca, De Clementia (ed. John W. Basore)<Perseus:text:2007.01.0015>
+165.Seneca, De Consolatione ad Helvium (ed. John W. Basore)<Perseus:text:2007.01.0017>
+166.Seneca, De Consolatione ad Marciam (ed. John W. Basore)<Perseus:text:2007.01.0018>
+167.Seneca, De Consolatione ad Polybium (ed. John W. Basore)<Perseus:text:2007.01.0019>
+168.Seneca, De Constantia (ed. John W. Basore)<Perseus:text:2007.01.0013>
+169.Seneca, De Ira (ed. John W. Basore)<Perseus:text:2007.01.0014>
+170.Seneca, De Otio (ed. John W. Basore)<Perseus:text:2007.01.0020>
+171.Seneca, De Providentia (ed. John W. Basore)<Perseus:text:2007.01.0012>
+172.Seneca, De Tranquillitate Animi (ed. John W. Basore)<Perseus:text:2007.01.0021>
+173.Seneca, De Vita Beata (ed. John W. Basore)<Perseus:text:2007.01.0022>
+174.Seneca, Hercules Furens (ed. Rudolf Peiper, Gustav Richter)<Perseus:text:2007.01.0003>
+175.Seneca, Hercules Oetaeus (ed. Rudolf Peiper, Gustav Richter)<Perseus:text:2007.01.0004>
+176.Seneca, Medea (ed. Rudolf Peiper, Gustav Richter)<Perseus:text:2007.01.0005>
+177.Seneca, Octavia (ed. Rudolf Peiper, Gustav Richter)<Perseus:text:2007.01.0006>
+178.Seneca, Oedipus (ed. Rudolf Peiper, Gustav Richter)<Perseus:text:2007.01.0007>
+179.Seneca, Phaedra (ed. Rudolf Peiper, Gustav Richter)<Perseus:text:2007.01.0008>
+180.Seneca, Phoenissae (ed. Rudolf Peiper, Gustav Richter)<Perseus:text:2007.01.0009>
+181.Seneca, Thyestes (ed. Rudolf Peiper, Gustav Richter)<Perseus:text:2007.01.0010>
+182.Seneca, Troades (ed. Rudolf Peiper, Gustav Richter)<Perseus:text:2007.01.0011>
+183.Sidonius Apollinaris, Epistulae, Books I-IX (ed. W.B. Anderson)<Perseus:text:2008.01.0549>
+184.Sidonius Apollinaris, Carmina (ed. W.B. Anderson)<Perseus:text:2008.01.0551>
+185.Sidonius Apollinaris, Epistulae, Books VIII-IX (ed. Christinaus Luetjohann, Christianus Luetjohann)<Perseus:text:2008.01.0550>
+186.Silius Italicus, Punica (ed. Walter Coventry Summers, John Percival Postgate)<Perseus:text:2008.01.0674>
+187.Statius, P. Papinius, Achilleis (ed. John Henry Mozley)<Perseus:text:2008.01.0500>
+188.Statius, P. Papinius, Silvae (ed. John Henry Mozley)<Perseus:text:2008.01.0499>
+189.Statius, P. Papinius, Thebais (ed. John Henry Mozley)<Perseus:text:2008.01.0498>
+190.C. Suetonius Tranquillus, De Vita Caesarum (ed. Maximilian Ihm)<Perseus:text:1999.02.0061>
+191.Cornelius Tacitus, Annales (ed. Charles Dennis Fisher)<Perseus:text:1999.02.0077>
+192.Cornelius Tacitus, de Origine et Situ Germanorum Liber (ed. Henry Furneaux)<Perseus:text:2007.01.0090>
+193.Cornelius Tacitus, De Vita Iulii Agricolae (ed. Henry Furneaux)<Perseus:text:1999.02.0084>
+194.Cornelius Tacitus, Dialogus de Oratoribus (ed. Henry Furneaux)<Perseus:text:2007.01.0089>
+195.Cornelius Tacitus, Historiae (ed. Charles Dennis Fisher)<Perseus:text:1999.02.0079>
+196.P. Terentius Afer (Terence), Hecyra (ed. Edward St. John Parry, Edward St. John Parry, M.A.)<Perseus:text:1999.02.0090>
+197.Tertullian, Apologeticum (ed. T.R. Glover)<Perseus:text:2008.01.0570>
+198.Tertullian, De Spectaculis (ed. T.R. Glover)<Perseus:text:2008.01.0571>
+199.Tibullus, Elegiae (ed. J. P. Postgate)<Perseus:text:2008.01.0507>
+200.C. Valerius Flaccus, Argonautica (ed. Otto Kramer)<Perseus:text:2007.01.0058>
+201.P. Vergilius Maro, Aeneid (ed. J. B. Greenough)<Perseus:text:1999.02.0055>
+202.P. Vergilius Maro, Eclogues (ed. J. B. Greenough)<Perseus:text:1999.02.0056>
+203.P. Vergilius Maro, Georgicon (ed. J. B. Greenough)<Perseus:text:1999.02.0059>
+204.Vitruvius Pollio, De Architectura (ed. F. Krohn)<Perseus:text:1999.02.0072>
+205.Latin Vulgate (ed. Saint Jerome, Bible Foundation and On-Line Book Initiative)<Perseus:text:1999.02.0060>
