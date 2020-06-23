@@ -291,7 +291,12 @@ input[type=number]{
     width: 4em;
 }
 
-</style> 
+</style>
+
+
+<head>
+  <title>Latin Verb Trainer</title>
+</head>
 
 <body>
 
@@ -352,8 +357,7 @@ input[type=number]{
   
   <button id="missing_collapsible_btn" type="button" class="collapsible">Missing Mutations (0)</button>
   <div class="content">  
-  <div id="missing_div">
-  <!-- <label> Verbs with missing inflections </label> -->
+  <div id="missing_div">  
   <div id="missing_inflections_div">
   <p>Missing mutations: <a href="https://danelh.github.io/verbs/info.html#missing-mutations" target="_blank\"> [what is that?] </a> </p>
   <textarea id="inflections_error_box" name="inflections_error_box" readonly=true disabled=true rows="4"></textarea>  
@@ -445,27 +449,18 @@ input[type=number]{
 	var mistake_counter = 0;
 	var correct_counter = 0;
 	var is_exam;
-	//var sorted_verbs_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/danelh.github.io/master/verbs_sorted_by_freq.json", 'async': true});
-    //var all_verbs_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/danelh.github.io/master/verbs_new.json", 'async': true});
-	//var compact_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/danelh.github.io/master/compact.json", 'async': true});
-	 // var compact_loader = $.getJSON({'url': "https://danelh.github.io/verbs/compact.json", 'async': true});
-	 // raw should be slower, but seem to work faster:
-	 var compact_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/verbs/master/compact.json", 'async': true});	 
+	var compact_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/verbs/master/compact.json", 'async': true});	 
 	compact_loader.done(function(){
-		//all_verbs = all_verbs_loader.responseJSON;
-		//sorted_verbs = sorted_verbs_loader.responseJSON;
 		compact_json = compact_loader.responseJSON;
 		all_verbs = compact_json["verbs"];
 		sorted_verbs = compact_json["freq_order"];
-		inflection_codes = compact_json["inf_code_to_text"]
-		console.log("finish loading verbs");
+		inflection_codes = compact_json["inf_code_to_text"]		
 		init();}
 	);	
   </script>
   
   <script>
-  function init() {		
-	console.log(sorted_verbs);	
+  function init() {				
 	var user_answer_input = document.getElementById("user_answer");	
 	user_answer_input.addEventListener("keydown", function(event) {
 	var x = event.which || event.keyCode;
@@ -484,8 +479,7 @@ input[type=number]{
 	populate_inflections();
 	populate_verbs_in_select();
 	load_verb_selection_params_from_url();
-	get_is_on_exam();
-	console.log("Time until DOMready: ", Date.now()-timerStart);
+	get_is_on_exam();	
 	selected_inflections_to_string();
   }
   
@@ -505,13 +499,9 @@ input[type=number]{
 	}
   }
   
-  function populate_inflections(){
-	//default_inflections = ["18", "109"]
+  function populate_inflections(){	
 	default_inflections = load_default_inflections();
 	all_possible_inflections = get_all_possible_inflections();
-	console.log(all_possible_inflections);
-	//all_possible_inflections = all_possible_inflections.filter(function(value, index, arr){ return !default_inflections.includes(value);});
-	console.log(all_possible_inflections);
 	var from_box =  document.getElementById("lstBox1");
 	var to_box = document.getElementById("lstBox2");
 	for (i = 0; i < all_possible_inflections.length; i++) {
@@ -540,7 +530,7 @@ input[type=number]{
 	url.searchParams.set("inflections", inflection_code);
 	url.searchParams.set("nv", nv);
 	url.searchParams.set("level", level);
-	window.history.pushState('page2', 'Title', url.toString());
+	window.history.pushState('updated params', '', url.toString());
   }
   
   function get_all_possible_inflections(){
@@ -585,8 +575,7 @@ input[type=number]{
   
   function get_filtered_verbs_by_freq(){
 	ratio = parseFloat(document.getElementById("level_select").value);
-	number_of_verbs_in_pool = parseInt(ratio * sorted_verbs.length);
-	console.log(number_of_verbs_in_pool);
+	number_of_verbs_in_pool = parseInt(ratio * sorted_verbs.length);	
 	return sorted_verbs.slice(0, number_of_verbs_in_pool);
   }
   
@@ -677,8 +666,7 @@ input[type=number]{
   
   function start_q(){
 	document.getElementById("user_answer").value = "";	
-	document.getElementById("consider").innerHTML = "";
-	console.log(mutation_dict);
+	document.getElementById("consider").innerHTML = "";	
 	current_mutation = select_mutation()    
 	dispaly_question();
 	display_consider();
@@ -696,8 +684,7 @@ input[type=number]{
 	inflection_text = inflection_codes[current_mutation[1]];
 	wiki_link = get_wiki_link(current_mutation[0]);
 	verb_text = "<a href=\"" + wiki_link + "\" target=\"_blank\">" + current_mutation[0] + "</a>";
-	document.getElementById("question").innerHTML = verb_text + ", " + inflection_text;
-	console.log();
+	document.getElementById("question").innerHTML = verb_text + ", " + inflection_text;	
   }
   
   function get_wiki_link(v){	
@@ -816,8 +803,7 @@ input[type=number]{
   function get_verbs_from_input(){
 	selected_verbs = [];
 	verbs_string = document.getElementById("verbs_box").value;
-	_verbs = verbs_string.split(",");
-	console.log(_verbs);
+	_verbs = verbs_string.split(",");	
 	bad_verbs = []
 	for (i = 0; i < _verbs.length; i++) {
 		current_verb = _verbs[i].trim();
@@ -833,14 +819,7 @@ input[type=number]{
 		}
 	}
 	
-	document.getElementById("verbs_box").value = selected_verbs;
-	
-	//if (bad_verbs.length){	
-	//	document.getElementById("verbs_error_p").innerHTML = "those verbs are not in list, they might have more than one possible conjugation. Try search it manually from the list to add the conjugation";
-	//}
-	//else{
-	//	document.getElementById("verbs_error_p").innerHTML = "";
-	//}
+	document.getElementById("verbs_box").value = selected_verbs;	
 	document.getElementById("verbs_error_box").innerHTML =  bad_verbs;
 	
   }
@@ -873,8 +852,7 @@ input[type=number]{
 	user_answer_input.disabled = true;
 	user_answer_input.value = "";
 	user_answer_input.placeholder = "Click Start to begin";	
-	document.getElementById("consider").innerHTML = "";
-	//document.getElementById("answer_counter").innerHTML = "";		
+	document.getElementById("consider").innerHTML = "";			
 	if ((is_exam && !reveresed) || (!is_exam && reveresed)){
 		set_final_score();
 	}
@@ -892,8 +870,7 @@ input[type=number]{
 	return (user_answer == correct_answer);
   }
   
-  function get_correct_answer_for_current_mutation(){
-	console.log(current_mutation);
+  function get_correct_answer_for_current_mutation(){	
 	dict_res = all_verbs[current_mutation[0]][current_mutation[1]];
 	if (dict_res){
 		return dict_res.split(",")[0].trim();
@@ -939,8 +916,7 @@ input[type=number]{
 			}
 		}
 	}	
-	for (i = 0, b_len = bad_mutations.length; i < b_len; i++) {
-		console.log("bad mutation: " + bad_mutations[i]);
+	for (i = 0, b_len = bad_mutations.length; i < b_len; i++) {		
 		bad_mutation_text += " \"" + bad_mutations[i][0] + "\" does not have \"" + inflection_codes[bad_mutations[i][1]] + "\" inflection\n";
 	}
 	
@@ -953,13 +929,11 @@ input[type=number]{
   
   function load_verb_selection_params_from_url(){
 	number_of_verbs = load_number_of_verbs_from_url();
-	console.log(number_of_verbs);
 	if (number_of_verbs){
 		document.getElementById("number_of_verbs_to_generate_input").value = number_of_verbs;
 		number_of_verbs_input_chnage();
 	}
-	level = load_level_from_url();
-	console.log(level);
+	level = load_level_from_url();	
 	if (level){
 		document.getElementById("level_select").value = level;
 		current_level = document.getElementById("level_select").value;
@@ -1002,8 +976,7 @@ input[type=number]{
 	selection_array.push(false);
 	selection_array.push(false);
 	
-	code = boolean_array_to_string(selection_array);	
-	//decoded = string_to_selected_inflections(code);
+	code = boolean_array_to_string(selection_array);		
 	return code;
   }
   
@@ -1017,8 +990,7 @@ input[type=number]{
 		if (_selection_array[i]){
 			selected_inflections.push(i.toString());
 		}
-	}
-	console.log(selected_inflections);
+	}	
 	return selected_inflections;
   }
   
@@ -1132,16 +1104,7 @@ input[type=number]{
     return tempArray;
   }
   
-  </script>
-    
-  <script>
-  // for wait
-  //alert("I am an alert box!");
-//  verbs = verbs.responseJSON;
-//  console.log(verbs["a"])
- // http://www.perseus.tufts.edu/hopper/morph?l=anno&la=la&can=anno0#lexicon
- // http://www.perseus.tufts.edu/hopper/loadquery?doc=Perseus:text:1999.04.0059:entry=anno2
-  </script>
+  </script>   
 
 </body>
 
