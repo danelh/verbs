@@ -9,7 +9,8 @@
   * [Frequencey](#frequencey)
 - [Inflection selection](#inflection-selection)
 - [Missing mutations](#missing-mutations)
-- [Save session parameters](#save-session-parameters)
+- [Practice and exam modes](#practice-and-exam-modes)
+- [Save session's parameters](#save-session-parameters)
 - [Contact information](#contact-information)
 
 ### Intro 
@@ -51,13 +52,22 @@ You can select more than one inflection.
 
 Many verbs cannot be inflected in all forms. The verb [_placeo_](https://en.wiktionary.org/wiki/placeo#Latin), for example,  is missing imperatives, or the verb [_fido_](https://en.wiktionary.org/wiki/fido#Latin), is missing supine. The Trainer will not ask this mutations from the user, and will note those missing inflections in the window. Note that deponent verbs like [_for_](https://en.wiktionary.org/wiki/for#Latin) are missing  the inflections which using the _perfect passive participle_ (like  _indicative **active** perfect_). To practice those, you can use the participle itself.
 
-In case a verb was selected, which is not in the Trainer list, it will be noted in the window. It can happen either when the verb is simply not existing in the Wiktionary, or that Trainer [expects parentheses](#the-verbs) for this verb. 
+In case a verb was selected, which is not in the Trainer list, it will be noted in the window. It can happen either when the verb is simply not existing in the Wiktionary, or that Trainer [expects parentheses](#the-verbs) for this verb.
 
-### Save session parameters
+### Practice and exam modes
+
+The Trainer has two modes of operation: practice or exam. The two modes are similiar in nature: in both the user is given mutation and required to inflect it correctly. The user should submit his answer by pressing Enter key. After an answer was submitted, the Trainer will indicate the user wheather he was correct. When the user is correct, the correct answer will be displayed in green, else the correct answer will be in red. Moreover, at the right side, the user can see his stats so far, as well as the "mutations left" which indicate the number of different mutations that might be displayed to show the user how far he is from completing the practice or the exam. To change mode, the user should click on the mode switch.
+
+In **practice mode**, the mutation in question is selected semi-randomally (bias towards mutations the user was wrong in recently). In this mode a given mutation might be asked many times without limit; thus, theoritically, the practice might last ad infinitum. **It is under the user responsibity to prevent a mutation to be asked again**: to do so, instead of submitting an answer, he should press the right arrow key (→). After pressing (→) the user should see appropiate message, and the number of "mutations left" (in the right side) going down. The user is adviced to do so when he is sure of the correct answer (The Trainer will tell the user to consider pressing (→) after he was right three times in a row, yet the final descision is always under the user discretion: he might do so before or after that). Ideally, the practice will end when the user pressed (→) to all the mutations, but the user might switch to exam mode or select other verbs/inflection any time he wishes. The user is encouraged, especially in this mode, to click on the verb in question when he is unsure of the meaning of the verb or want to see the full conjugation table.
+
+**Exam mode** should be used when the user feels confident about the inflection of the selected verbs, and he wants to test his level. In this mode every mutaion is asked only once (no need to press (→). At the end of the exam the user wil see his final score.
+
+
+### Save session's parameters
 
 Selecting the inflections and auto verbs-generation settings might be tedious, especially when we are using them for long.  In order to avoid re-selection of those parameters each time we open the Trainer,  the selected parameters are saved in address bar of the browser. Every change of the selected inflections or every click on "generate" button, will trigger a change in the address bar that will contain the newly-selected parameters. If you want to save the settings, simply copy the line of the address bar and save it for future use. When you use that link, the Trainer will be opened with the selected parameters, and with the verbs already generated - so you can start practice right away.
 
-If you want to save the verbs themselves (rather than the verbs-generation parameters), you should copy the text in the [verbs box](#verb-selection), and save this text for future use. To use the saved list, you have to paste it in the verbs box. 
+If you want to save the verbs themselves (rather than the verbs-generation parameters), you should copy the text in the [verbs box](#verb-selection), and save this text for future use. To use the saved list, you have to paste it in the verbs box.
 
 ### Contact information 
 
