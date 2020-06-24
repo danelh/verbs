@@ -295,16 +295,6 @@ input[type=number]{
 
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170550843-1"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-170550843-1');
-  </script>
-
   <title>Latin Verb Trainer</title>
 </head>
 
@@ -408,7 +398,9 @@ input[type=number]{
 	  <p id="question"></p>
 	  <p id="consider"></p>
 	  <input type="text" id="user_answer">
-	  <p id="res"></p>
+	  <p id="res"><br></p>
+	  <!-- empty line - to avoid slide when "res" to be the last line -->	  
+	  <br>
   </div>     
   <div id="exam_status">
 	  <p id="mutations_left"></p>
@@ -481,7 +473,7 @@ input[type=number]{
 		remove_mutation();
 	}
 	else{		
-		document.getElementById("res").innerHTML = "";
+		document.getElementById("res").innerHTML = "<br>";
 	}
 	});
 	
@@ -661,11 +653,13 @@ input[type=number]{
 	correct_counter = 0;
 	mutation_strike_counter = {}
 	set_answer_counter();
-	document.getElementById("res").innerHTML = "";
+	document.getElementById("res").innerHTML = "<br>";
 	document.getElementById("consider").innerHTML = "";
 	var user_answer_input = document.getElementById("user_answer");
 	user_answer_input.disabled = false;
 	user_answer_input.placeholder = "";
+	// scroll to page buttom
+	window.scrollTo(0, document.body.scrollHeight);
 	set_focus_on_user_answer();
 	start_q();
   }  
@@ -856,7 +850,7 @@ input[type=number]{
   
   function end_exam(reveresed=false){
 	document.getElementById("mutations_left").innerHTML = "";
-	document.getElementById("res").innerHTML = "";
+	document.getElementById("res").innerHTML = "<br>";
 	document.getElementById("question").innerHTML = "Question here";	
 	var user_answer_input = document.getElementById("user_answer");	
 	user_answer_input.disabled = true;
