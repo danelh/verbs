@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-# Latin Verb Trainer1
+# Latin Verb Trainer2
 
 ## Table of Contents
 
