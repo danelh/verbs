@@ -14,7 +14,7 @@ title: info
 - [Inflection selection](#inflection-selection)
 - [Missing mutations](#missing-mutations)
 - [Practice and exam modes](#practice-and-exam-modes)
-- [Save session's parameters](#save-session-parameters)
+- [Save session's parameters](#save-sessions-parameters)
 - [Contact information](#contact-information)
 
 ## Intro 
