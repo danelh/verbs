@@ -296,7 +296,7 @@ input[type=number]{
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170550843-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170550843-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -692,14 +692,27 @@ input[type=number]{
 			document.getElementById("consider").innerHTML = "You got this right 3 times in a row. cosider pressing (→)";
 		}
 	}
-  }
+  } 
   
   function dispaly_question(){
-	inflection_text = inflection_codes[current_mutation[1]];
+	inflection_text = get_inflection_text(current_mutation[1]);
 	wiki_link = get_wiki_link(current_mutation[0]);
 	verb_text = "<a href=\"" + wiki_link + "\" target=\"_blank\">" + current_mutation[0] + "</a>";
 	document.getElementById("question").innerHTML = verb_text + ", " + inflection_text;	
   }
+  
+   function get_inflection_text(inf_code){
+		inflection_text = inflection_codes[inf_code];
+		//inflection_text = inflection_text.replace("indicative active", "");
+		//inflection_text = inflection_text.replace("1st singular", "ego");
+		//inflection_text = inflection_text.replace("2nd singular", "tu");
+		//inflection_text = inflection_text.replace("3rd singular", "is");
+		//inflection_text = inflection_text.replace("1st plural", "nos");
+		//inflection_text = inflection_text.replace("2nd plural", "vos");
+		//inflection_text = inflection_text.replace("3rd plural", "illi");
+		return inflection_text;
+   }
+
   
   function get_wiki_link(v){	
 	clearn_verb = v.split("(")[0];
@@ -887,7 +900,9 @@ input[type=number]{
   function get_correct_answer_for_current_mutation(){	
 	dict_res = all_verbs[current_mutation[0]][current_mutation[1]];
 	if (dict_res){
-		return dict_res.split(",")[0].trim();
+		dict_res = dict_res.split(",")[0].trim();
+		dict_res = dict_res.replace("  ", " ");
+		dict_res = dict_res.replace(" 1", "");
 	}
     return dict_res;
   }
