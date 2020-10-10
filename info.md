@@ -2,7 +2,7 @@
 layout: default
 title: info
 ---
-# Latin Verb Trainer
+# Latin Verb Trainer (Part of [Res Latinae](https://danelh.github.io/))
 
 ## Table of Contents
 
