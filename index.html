@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html>
 <style>
@@ -461,7 +462,8 @@ input[type=number]{
 	var mistake_counter = 0;
 	var correct_counter = 0;
 	var is_exam;
-	var compact_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/verbs/master/compact.json", 'async': true});	 
+	//var compact_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/verbs/master/compact.json", 'async': true});
+	var compact_loader = $.getJSON({'url': "https://raw.githubusercontent.com/danelh/verbs/master/compact_macronized.json", 'async': true});
 	compact_loader.done(function(){
 		compact_json = compact_loader.responseJSON;
 		all_verbs = compact_json["verbs"];
@@ -895,20 +897,33 @@ input[type=number]{
   
   function is_user_correct(){	
 	user_answer = document.getElementById("user_answer").value;
-	correct_answer = get_correct_answer_for_current_mutation();
-	return (user_answer == correct_answer);
+	correct_answers = get_correct_answer_for_current_mutation(true);
+	return (correct_answers.includes(user_answer));
   }
   
-  function get_correct_answer_for_current_mutation(){	
+  function get_correct_answer_for_current_mutation(is_for_user_check){	
 	dict_res = all_verbs[current_mutation[0]][current_mutation[1]];
 	if (dict_res){
-		dict_res = dict_res.split(",")[0].trim();
-		dict_res = dict_res.replace("  ", " ");
-		dict_res = dict_res.replace(" 1", "");
+		//dict_res = dict_res.split(",")[0].trim();
+		//dict_res = dict_res.replace("  ", " ");
+		//dict_res = dict_res.replace(" 1", "");
+		if (is_for_user_check){
+			dict_res = dict_res.split(" ")		
+			for (i=0; i < dict_res.length; i+=1){
+				dict_res[i] = remove_macrons(dict_res[i]);
+			}
+		}else{
+			// for display:
+			dict_res = dict_res.replace(" ,", ",");
+		}
+		
 	}
     return dict_res;
   }
-
+  
+  function remove_macrons(s){
+	return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "")	
+  }
   
   </script>
   
